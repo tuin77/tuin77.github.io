@@ -18,6 +18,7 @@ import UnoCSS from 'unocss/vite'
 import SVG from 'vite-svg-loader'
 import MarkdownItShiki from '@shikijs/markdown-it'
 import { rendererRich, transformerTwoslash } from '@shikijs/twoslash'
+import MarkdownItMagicLink from 'markdown-it-magic-link'
 
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
@@ -46,7 +47,6 @@ export default defineConfig({
 
     Vue({
       include: [/\.vue$/, /\.md$/],
-      reactivityTransform: true,
       script: {
         defineModel: true,
       },
@@ -120,6 +120,8 @@ export default defineConfig({
           containerHeaderHtml: '<div class="table-of-contents-anchor"><div class="i-ri-menu-2-fill" /></div>',
         })
 
+        md.use(MarkdownItMagicLink)
+
         md.use(GitHubAlerts)
       },
       frontmatterPreprocess(frontmatter, options, id, defaults) {
@@ -192,7 +194,6 @@ export default defineConfig({
 
   ssgOptions: {
     formatting: 'minify',
-    format: 'cjs',
   },
 })
 
@@ -203,8 +204,8 @@ async function generateOg(title: string, output: string) {
     return
 
   await fs.mkdir(dirname(output), { recursive: true })
-  // breakline every 25 chars
-  const lines = title.trim().split(/(.{0,25})(?:\s|$)/g).filter(Boolean)
+  // breakline every 30 chars
+  const lines = title.trim().split(/(.{0,30})(?:\s|$)/g).filter(Boolean)
 
   const data: Record<string, string> = {
     line1: lines[0],

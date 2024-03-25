@@ -30,6 +30,8 @@
 /talks/2023-10-05 https://talks.antfu.me/2023-10-05/pdf 302
 /talks/2023-10-18 https://talks.antfu.me/2023-10-18/pdf 302
 /talks/2023-10-28 https://talks.antfu.me/2023-10-28/pdf 302
+/talks/2024-02-29 https://talks.antfu.me/2024-02-29/pdf 302
+/talks/2024-03-22 https://talks.antfu.me/2024-03-22/pdf 302
 
 /vueuse https://github.com/vueuse/vueuse 302
 /vue-demi https://github.com/vueuse/vue-demi 302
@@ -66,6 +68,7 @@
 /contribute	https://github.com/antfu/contribute	302
 /cpwp	https://github.com/antfu/cpwp	302
 /deploy-check	https://github.com/antfu/deploy-check	302
+/diff-match-patch-es	https://github.com/antfu/diff-match-patch-es	302
 /discussions	https://github.com/antfu/discussions	302
 /dotfiles	https://github.com/antfu/dotfiles	302
 /drauu	https://github.com/antfu/drauu	302
@@ -104,11 +107,12 @@
 /local-pkg	https://github.com/antfu/local-pkg	302
 /log-editor	https://github.com/antfu/log-editor	302
 /markdown-it-github-alerts	https://github.com/antfu/markdown-it-github-alerts	302
+/markdown-it-magic-link	https://github.com/antfu/markdown-it-magic-link	302
 /markdown-it-mdc	https://github.com/antfu/markdown-it-mdc	302
 /ni	https://github.com/antfu/ni	302
 /nitro-shikiji	https://github.com/antfu/nitro-shikiji	302
 /npm-ping	https://github.com/antfu/npm-ping	302
-/nuxt-module-eslint-config	https://github.com/antfu/nuxt-module-eslint-config	302
+/nuxt-content-twoslash	https://github.com/antfu/nuxt-content-twoslash	302
 /nuxt-server-fn	https://github.com/antfu/nuxt-server-fn	302
 /nuxt-tsconfig-stub	https://github.com/antfu/nuxt-tsconfig-stub	302
 /p5i	https://github.com/antfu/p5i	302
@@ -131,10 +135,8 @@
 /rou	https://github.com/antfu/rou	302
 /sd-webui-qrcode-toolkit	https://github.com/antfu/sd-webui-qrcode-toolkit	302
 /set-game	https://github.com/antfu/set-game	302
-/shikiji	https://github.com/antfu/shikiji	302
 /simple-permission	https://github.com/antfu/simple-permission	302
 /slidev-new	https://github.com/antfu/slidev-new	302
 /sponsorkit	https://github.com/antfu/sponsorkit	302
 /starter-ts	https://github.com/antfu/starter-ts	302
 /starter-vscode	https://github.com/antfu/starter-vscode	302
-/strip-literal	https://github.com/antfu/strip-literal	302
