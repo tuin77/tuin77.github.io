@@ -20,23 +20,20 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
-      - name: 安装 pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          run_install: true
-          version: 8
+      # - name: 安装 pnpm
+      #   uses: pnpm/action-setup@v2
+      #   with:
+      #     run_install: true
+      #     version: 8
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: pnpm
+          cache: npm
+      - run: npm install # 安装依赖
+      - run: npm run build # 打包
 
-      - name: 构建文档
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
-          pnpm run build
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
