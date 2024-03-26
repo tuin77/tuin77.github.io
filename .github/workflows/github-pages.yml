@@ -12,6 +12,16 @@ permissions:
 jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write    # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+    
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -38,9 +48,11 @@ jobs:
         run: |-
           pnpm run build
 
-      - name: 部署文档
+      - name: 上传构建产物
         uses: actions/upload-artifact@v4
         with:
-          # 这是文档部署到的分支名称
-          # branch: gh-pages
-          path: "./dist"
+          path: dist
+
+      - name: 部署至GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

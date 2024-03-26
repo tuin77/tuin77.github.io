@@ -13,7 +13,7 @@ duration: 25min
 >
 > Slides: [中文 ver.](https://antfu.me/talks/2020-09-26) | [English ver.](https://antfu.me/talks/2020-09-26/en)
 
-Hello 大家好，非常感谢丁香园这次的邀请，也非常荣幸能够参与这次的分享。我是第一次做这样的分享，不足之处还请多多指教。
+Hello 大家好，非常感谢丁香园这次的邀请，也非常荣幸能够参与这次的分享。我是第一次做这样的分享不足之处还请多多指教。
 
 我这次分享的主题是 `import { reactive } from 'vue'`，和大家简单聊一聊 Vue 3 的响应式和组合式，以及他们的一些应用。
 
