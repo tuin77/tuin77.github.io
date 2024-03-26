@@ -15,6 +15,8 @@ Dreaming up ideas and making them come true is where my passion lies. You can fi
 
 Outside of programming, I enjoy doing photography and traveling. Some of my photos can be found on [Instagram](https://www.instagram.com/antfu7). If you happen to be in the same city I live (currently in Paris), maybe we can hang out and take some photos or code together.
 
+Make some simple contributions to the community in free time.
+
 <div flex-auto />
 
 ---
@@ -24,8 +26,8 @@ Outside of programming, I enjoy doing photography and traveling. Some of my phot
 <p flex="~ gap-3 wrap" class="mt--2!">
   Find me on
   <a href="https://github.com/tuin77" target="_blank"><span op75 i-simple-icons-github /> GitHub</a>
-  <!-- <a href="https://elk.zone/m.webtoo.ls/@antfu" target="_blank"><span op75 i-simple-icons-mastodon/> Mastodon</a>
-  <a href="https://www.twitter.com/antfu7" target="_blank"><span op75 i-ri-twitter-x-fill /> Twitter</a>
+  <a href="mailto:yanqirj@gmail.com?subject=Hi" target="_blank"><span op75 i-simple-icons-mastodon/> email</a>
+   <!--<a href="https://www.twitter.com/antfu7" target="_blank"><span op75 i-ri-twitter-x-fill /> Twitter</a>
   <a href="https://chat.antfu.me" target="_blank"><span op75 i-simple-icons-discord /> Discord Server</a>
   <a href="https://www.youtube.com/anthonyfu7" target="_blank"><span op75 i-simple-icons-youtube /> YouTube</a>
   <a href="https://www.instagram.com/antfu7" target="_blank"><span op75 i-simple-icons-instagram /> Instagram</a>
